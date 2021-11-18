@@ -20,7 +20,7 @@ const berechnen = () => {
         let endergebnis2 = Number(input.value) * 1.07;
         endPreis.innerHTML = endergebnis2.toFixed(2) + "€";
         let differenz2 = endergebnis2 - input.value
-        mwsBetrag.innerHTML = differenz2 - input.value + "€";
+        mwsBetrag.innerHTML = differenz2.toFixed(2) + "€";
     } else if (abziehen.checked && neunZehn.checked) {
 
         let endergebnis3 = Number(input.value) / 1.19;
