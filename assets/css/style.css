@@ -4,6 +4,7 @@ body {
 }
 
 .container {
+  margin: 0 auto;
   width: 500px;
   height: 660px;
   background-color: white;
@@ -13,25 +14,25 @@ body {
 }
 .container .eins {
   padding: 10px 0;
-  background-color: #c8c8c8;
+  background-color: #e8e8e8;
 }
 .container .eins p:nth-of-type(1) {
   font-size: 20px;
 }
 .container .zwei {
-  background-color: #c8c8c8;
+  background-color: #e8e8e8;
 }
 .container .drei {
-  background-color: #c8c8c8;
+  background-color: #e8e8e8;
   margin: 0 0 10px 0;
 }
 .container .vier {
-  background-color: #c8c8c8;
+  background-color: #e8e8e8;
   margin: 0 0 10px 0;
   padding: 10px 0 10px 0;
 }
 .container .fuenf {
-  background-color: #c8c8c8;
+  background-color: #e8e8e8;
   margin: 0 0 10px 0;
   padding: 10px 0 10px 0;
 }

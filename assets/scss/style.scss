@@ -1,9 +1,10 @@
 body {
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
 .container {
+    margin: 0 auto;
     width: 500px;
     height: 660px;
     background-color: rgb(255, 255, 255);
@@ -12,25 +13,25 @@ body {
     text-align: start;
     .eins {
         padding: 10px 0;
-        background-color: rgb(200, 200, 200);
+        background-color: rgb(232, 232, 232);
         p:nth-of-type(1) {
             font-size: 20px;
         }
     }
     .zwei {
-        background-color: rgb(200, 200, 200);
+        background-color: rgb(232, 232, 232);
     }
     .drei {
-        background-color: rgb(200, 200, 200);
+        background-color: rgb(232, 232, 232);
         margin: 0 0 10px 0;
     }
     .vier {
-        background-color: rgb(200, 200, 200);
+        background-color: rgb(232, 232, 232);
         margin: 0 0 10px 0;
         padding: 10px 0 10px 0;
     }
     .fuenf {
-        background-color: rgb(200, 200, 200);
+        background-color: rgb(232, 232, 232);
         margin: 0 0 10px 0;
         padding: 10px 0 10px 0;
     }
