@@ -6,6 +6,7 @@ let input = document.getElementById("input");
 let mwsBetrag = document.getElementById("mwsBetrag");
 let endPreis = document.getElementById("endPreis");
 let nettoBrutto = document.getElementById("nettoBrutto");
+let bruttoB = document.getElementById("bruttoB");
 
 
 const berechnen = () => {
@@ -41,10 +42,12 @@ const berechnen = () => {
 const abziehenF = () => {
     if (abziehen.checked) {
         nettoBrutto.innerHTML = "Bruttobetrag (Preis inklusive Mehrwertsteuer) in Euro"
+        bruttoB.innerHTML = "Nettobetrag"
     }
 }
 const aufschlagenF = () => {
     if (aufschlagen.checked) {
         nettoBrutto.innerHTML = "Nettobetrag (Preis ohne Mehrwertsteuer) in Euro"
+        bruttoB.innerHTML = "Bruttobetrag(Endpreis)"
     }
 }

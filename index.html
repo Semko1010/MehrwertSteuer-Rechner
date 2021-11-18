@@ -12,34 +12,44 @@
 <body>
 
     <div class="container">
-        <p>Was soll berechnet werden ?</p>
-        <section class="section1">
-            <div>
-                <input onclick="aufschlagenF()" type="radio" name="mehrWertSteuer" id="mwsAufschlagen">
-                <label for="">Mehrwertsteuer aufschlagen(Netto zu Brutto)</label>
+        <div class="eins">
+            <p>Was soll berechnet werden ?</p>
+            <section class="section1">
+                <div>
+                    <input onclick="aufschlagenF()" type="radio" name="mehrWertSteuer" id="mwsAufschlagen">
+                    <label for="">Mehrwertsteuer aufschlagen(Netto zu Brutto)</label>
 
-            </div>
-            <div>
-                <input onclick="abziehenF()" type="radio" name="mehrWertSteuer" id="mwsAbziehen">
-                <label for="">Mehrwertsteuer abziehen (Brutto zu Netto)</label>
 
-            </div>
+                </div>
+                <div>
+                    <input onclick="abziehenF()" type="radio" name="mehrWertSteuer" id="mwsAbziehen">
+                    <label for="">Mehrwertsteuer abziehen (Brutto zu Netto)</label>
+
+                </div>
+        </div>
         </section>
-        <p>Mehrwertsteuersatz</p>
-        <input type="radio" name="steuerSatz" id="19%">
-        <label for="">19%</label>
-        <input type="radio" name="steuerSatz" id="7%">
-        <label for="">7%</label>
-
-        <p id="nettoBrutto">Nettobetrag (Preis ohne Mehrwertsteuer) in Euro</p>
-        <input type="text" id="input">
+        <div class="zwei">
+            <p>Mehrwertsteuersatz</p>
+            <input type="radio" name="steuerSatz" id="19%">
+            <label for="">19%</label>
+            <input type="radio" name="steuerSatz" id="7%">
+            <label for="">7%</label>
+        </div>
+        <div class="drei">
+            <p id="nettoBrutto">Nettobetrag (Preis ohne Mehrwertsteuer) in Euro</p>
+            <input type="text" id="input">
+        </div>
         <button onclick="berechnen()" id="btn">Berechnen</button >
-
-        <p>Ergebnis</p>
+<div class="border"></div>
+        <p class="erg">Ergebnis</p>
+        <div class="vier">
         <p>Mehrwertsteuerbetrag</p>
         <p id="mwsBetrag">0</p>
-        <p>Bruttobetrag(Endpreis)</p>
+    </div>
+    <div class="fuenf">
+        <p id="bruttoB">Bruttobetrag(Endpreis)</p>
         <p id="endPreis">0</p>
+    </div>
 
     </div>
 

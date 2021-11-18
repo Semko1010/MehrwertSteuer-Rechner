@@ -5,13 +5,34 @@ body {
 
 .container {
     width: 500px;
-    height: 800px;
-    background-color: gray;
+    height: 660px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
     border-radius: 10px;
     text-align: start;
-    p {
+    .eins {
         padding: 10px 0;
-        font-size: 20px;
+        background-color: rgb(200, 200, 200);
+        p:nth-of-type(1) {
+            font-size: 20px;
+        }
+    }
+    .zwei {
+        background-color: rgb(200, 200, 200);
+    }
+    .drei {
+        background-color: rgb(200, 200, 200);
+        margin: 0 0 10px 0;
+    }
+    .vier {
+        background-color: rgb(200, 200, 200);
+        margin: 0 0 10px 0;
+        padding: 10px 0 10px 0;
+    }
+    .fuenf {
+        background-color: rgb(200, 200, 200);
+        margin: 0 0 10px 0;
+        padding: 10px 0 10px 0;
     }
     .section1 {
         div {
@@ -19,13 +40,21 @@ body {
         }
     }
     button {
-        width: 480px;
+        width: 460px;
         height: 40px;
         background-color: rgb(8, 90, 203);
         border-radius: 10px;
+        margin: 0 0 0 20px;
     }
     #input {
         height: 40px;
-        margin: 0 0 15px 0;
+        margin: 0 0 20px 20px;
+    }
+    .erg {
+        color: blue;
+    }
+    .border {
+        border-top: 2px solid black;
+        margin-top: 20px;
     }
 }
