@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0
+}
+
+.container {
+    width: 500px;
+    height: 800px;
+    background-color: gray;
+    border-radius: 10px;
+    text-align: start;
+    p {
+        padding: 10px 0;
+        font-size: 20px;
+    }
+    .section1 {
+        div {
+            text-align: start;
+        }
+    }
+    button {
+        width: 480px;
+        height: 40px;
+        background-color: rgb(8, 90, 203);
+        border-radius: 10px;
+    }
+    #input {
+        height: 40px;
+        margin: 0 0 15px 0;
+    }
+}

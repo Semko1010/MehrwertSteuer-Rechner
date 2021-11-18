@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 500px;
+  height: 800px;
+  background-color: gray;
+  border-radius: 10px;
+  text-align: start;
+}
+.container p {
+  padding: 10px 0;
+  font-size: 20px;
+}
+.container .section1 div {
+  text-align: start;
+}
+.container button {
+  width: 480px;
+  height: 40px;
+  background-color: #085acb;
+  border-radius: 10px;
+}
+.container #input {
+  height: 40px;
+  margin: 0 0 15px 0;
+}
+
+/*# sourceMappingURL=style.css.map */
