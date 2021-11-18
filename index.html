@@ -15,12 +15,12 @@
         <p>Was soll berechnet werden ?</p>
         <section class="section1">
             <div>
-                <input type="radio" name="mehrWertSteuer" id="mwsAufschlagen">
+                <input onclick="aufschlagenF()" type="radio" name="mehrWertSteuer" id="mwsAufschlagen">
                 <label for="">Mehrwertsteuer aufschlagen(Netto zu Brutto)</label>
 
             </div>
             <div>
-                <input type="radio" name="mehrWertSteuer" id="mwsAbziehen">
+                <input onclick="abziehenF()" type="radio" name="mehrWertSteuer" id="mwsAbziehen">
                 <label for="">Mehrwertsteuer abziehen (Brutto zu Netto)</label>
 
             </div>
@@ -31,7 +31,7 @@
         <input type="radio" name="steuerSatz" id="7%">
         <label for="">7%</label>
 
-        <p>Nettobetrag (Preis ohne Mehrwertsteuer) in Euro</p>
+        <p id="nettoBrutto">Nettobetrag (Preis ohne Mehrwertsteuer) in Euro</p>
         <input type="text" id="input">
         <button onclick="berechnen()" id="btn">Berechnen</button >
 
